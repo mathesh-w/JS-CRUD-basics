@@ -1,0 +1,35 @@
+body {
+   margin: 0 50px;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+   display: flex;
+   gap: 50px;
+}
+
+#posts {
+   width: 400px;
+}
+
+#posts div {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.options {
+   display: flex;
+   gap: 25px;
+}
+
+i {
+   cursor: pointer;
+}
+
+#msg {
+   color: tomato;
+}
